@@ -1,15 +1,65 @@
+.fa
+  display inline-block
+  font-family FontAwesome
+  font-style normal
+  font-weight normal
+  line-height 1
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+/* makes the font 33% larger relative to the icon container */
+.fa-lg
+  font-size 1.3333333333333333em
+  line-height 0.75em
+  vertical-align -15%
+
+.fa-2x
+  font-size 2em
+
+.fa-3x
+  font-size 3em
+
+.fa-4x
+  font-size 4em
+
+.fa-5x
+  font-size 5em
+
+.fa-stack-overflow:before
+  content "\f16c"
+
+.fa-bitbucket:before
+  content "\f171"
+
+.fa-linkedin-square:before
+  content "\f08c"
+
+.fa-google-plus:before
+  content "\f0d5"
+
+.fa-rss:before
+  content "\f09e"
+
+.fa-angle-right:before
+  content: "\f105"
+
+.fa-github:before
+  content: "\f09b"
+
 #header
   border-radius 8px 8px 0 0
-  background #C6EAFA linear-gradient(#DDFBFC, #C6EAFA)
   position relative
   padding 15px 30px
-  border-bottom 1px solid #B2D2E1
+  border-bottom 1px solid #000000
 
   .title
     float left
+    font-family font-title
+    font-weight bold
 
   .nav
     float right
+    font 1.2em font-text
     font-family font-title
     line-height 2.5em
 
@@ -22,8 +72,8 @@
   h1
     margin 0
     padding 0
-    font-size 24px
-    font-weight normal
+    font-size 36px
+    font-weight bold
     line-height 1.2
     color #069
     text-shadow rgba(255, 255, 255, 0.9) 0 1px 0
@@ -34,6 +84,6 @@
   p
     margin 0
     color #61778B
-    width 300px
-    font-size 13px
-    font-style italic
+    width 170px
+    font 1.2em font-text
+    font-family font-title

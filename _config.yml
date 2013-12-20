@@ -1,23 +1,13 @@
 menu:
-  Home: /
-  Archives: /archives
 
 excerpt_link: Read More
 archive_yearly: false
 
 widgets:
-  - category
-  - tag
-  - tagcloud
-  - recent_posts
-  - blogroll
-
-blogrolls:
-  - Heroic Yang's Blog: http://heroicyang.com/
 
 fancybox: true
 
 duoshuo_shortname: 
 
-google_analytics:
+google_analytics: UA-37863499-1
 rss:
