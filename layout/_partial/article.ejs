@@ -14,6 +14,12 @@
       <%- item.excerpt %>
     <% } else { %>
       <%- item.content %>
+      <div class="posted-by">
+        Posted by <% if (config.author){ %>
+          <a href="<%- config.root %>"><%= config.author %></a>
+          <% } else { %>
+            <a href="<%- config.root %>"><%= config.title %></a>
+          <% } %>
     <% } %>
   </div>
   <footer<% if (index) { %> class="end-sep"<% } %>>
